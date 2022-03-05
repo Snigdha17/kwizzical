@@ -1,0 +1,16 @@
+.navbar {
+  background-color: var(--text-color);
+}
+
+.site-nav-logo:link,
+.site-nav-logo:visited {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--white);
+  font-size: 2.4rem;
+  text-decoration: none;
+  padding: 12px 15px;
+  transition: all 0.1s;
+  font-weight: 600;
+}
