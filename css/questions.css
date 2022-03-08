@@ -1,0 +1,40 @@
+@import url("../style.css");
+
+.question-title {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.8rem;
+}
+
+.quiz-options {
+  max-width: 80rem;
+  margin: 0 auto 5.2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.quiz-options button {
+  padding: 2rem 4rem;
+  background-color: var(--dark-gray);
+  font-size: 1.8rem;
+  border-radius: 1.8rem;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.8rem;
+}
+
+.nav-buttons button {
+  background-color: var(--main-color);
+}
+
+.nav-buttons button a {
+  color: var(--white);
+}
+
+.nav-buttons button:hover a {
+  color: var(--text-color);
+}
