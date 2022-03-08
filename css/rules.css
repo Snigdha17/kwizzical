@@ -1,0 +1,11 @@
+@import url(../style.css);
+
+.rules-container {
+  max-width: 60rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  align-items: start;
+  justify-content: center;
+}
