@@ -1,0 +1,19 @@
+@import url("./questions.css");
+
+.result-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+
+.quiz-options button.right-answer {
+  background-color: var(--correct-color);
+}
+
+.quiz-options button.wrong-answer {
+  background-color: var(--incorrect-color);
+}
+
+.quiz-options button.disabled {
+  pointer-events: none;
+}
